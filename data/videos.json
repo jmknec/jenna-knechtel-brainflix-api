@@ -1,0 +1,26 @@
+[
+  {
+    "id": "001",
+    "channel": "Jenna",
+    "title": "my video",
+    "description": "this is a cool video"
+  },
+  {
+    "id": "002",
+    "channel": "Amy",
+    "title": "Amy's video",
+    "description": "watch my fun video"
+  },
+  {
+    "id": "003",
+    "channel": "Laura",
+    "title": "Laura's video",
+    "description": "check out this amazing video"
+  },
+  {
+    "id": "004",
+    "channel": "Ben",
+    "title": "Ben's video",
+    "description": "you'll love this crazy video"
+  }
+]

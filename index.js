@@ -1,6 +1,6 @@
 import "dotenv/config";
 import express from "express";
-import videosRouter from "./routes/videos";
+import videosRouter from "./routes/videos.js";
 
 const app = express();
 const port = process.env.PORT || 8081;
