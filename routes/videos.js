@@ -13,7 +13,13 @@ videosRouter
   .route("/")
   .get((_req, res) => {
     const videosData = readVideos();
-    res.json(videosData);
+    const minVideosData = videosData.map(({ id, title, channel, image }) => ({
+      id,
+      title,
+      channel,
+      image,
+    }));
+    res.json(minVideosData);
   })
   .post((req, res) => {
     const { title, description } = req.body;
@@ -30,5 +36,17 @@ videosRouter
 
     res.send("Thank you for uploading a video");
   });
+
+videosRouter.get("/:id", (req, res) => {
+  const idParam = req.params.id;
+  const videos = readVideos();
+  const videoDetails = videos.find((video) => video.id === idParam);
+
+  if (!videoDetails) {
+    return res.status(404).send("Sorry, that video does not exist");
+  }
+
+  res.json(videoDetails);
+});
 
 export default videosRouter;
