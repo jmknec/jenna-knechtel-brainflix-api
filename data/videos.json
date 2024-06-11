@@ -1,1 +1,36 @@
-[{"id":"001","channel":"Jenna","title":"my video","description":"this is a cool video"},{"id":"002","channel":"Amy","title":"Amy's video","description":"watch my fun video"},{"id":"003","channel":"Laura","title":"Laura's video","description":"check out this amazing video"},{"id":"004","channel":"Ben","title":"Ben's video","description":"you'll love this crazy video"},{"id":"45f30250-d8dc-4804-9d40-c3cd7ff51a83","title":"a new video","description":"here's a new video"}]
+[
+  {
+    "id": "001",
+    "channel": "Jenna",
+    "title": "my video",
+    "description": "this is a cool video"
+  },
+  {
+    "id": "002",
+    "channel": "Amy",
+    "title": "Amy's video",
+    "description": "watch my fun video"
+  },
+  {
+    "id": "003",
+    "channel": "Laura",
+    "title": "Laura's video",
+    "description": "check out this amazing video"
+  },
+  {
+    "id": "004",
+    "channel": "Ben",
+    "title": "Ben's video",
+    "description": "you'll love this crazy video"
+  },
+  {
+    "id": "45f30250-d8dc-4804-9d40-c3cd7ff51a83",
+    "title": "a new video",
+    "description": "here's a new video"
+  },
+  {
+    "id": "d314ee34-79c0-412f-8925-afc3f74b186e",
+    "title": "a new video",
+    "description": "here's a new video"
+  }
+]
