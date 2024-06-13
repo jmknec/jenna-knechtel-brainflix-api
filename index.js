@@ -9,6 +9,7 @@ const { CORS_URL } = process.env;
 
 app.use(express.json());
 app.use(cors({ origin: CORS_URL }));
+app.use(express.static("/public/images"));
 
 app.use("/videos", videosRouter);
 app.use("/videos/:id", videosRouter);
