@@ -10,6 +10,7 @@
     "duration": "4:01",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1691471862000,
+    "alt": "Abstract image distorted lights & colours",
     "comments": [
       {
         "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
@@ -45,6 +46,7 @@
     "duration": "12:26",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1690089462000,
+    "alt": "Colourful houses along waterfront",
     "comments": [
       {
         "id": "ade82e25-6c87-4403-ba35-47bdff93a51c",
@@ -80,6 +82,7 @@
     "duration": "26:13",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1700374662000,
+    "alt": "Dressing being poured onto salad",
     "comments": [
       {
         "id": "7ba106bf-e74a-4c21-b59e-c485a30eea45",
@@ -115,6 +118,7 @@
     "duration": "8:34",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1676182662000,
+    "alt": "Silhouettes of people on park benches at sunrise",
     "comments": [
       {
         "id": "a2b4ccd4-af48-46e9-9e62-b96731dad728",
@@ -150,6 +154,7 @@
     "duration": "45:59",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1677910662000,
+    "alt": "Two adventurers looking over snowy mountain range",
     "comments": [
       {
         "id": "823f6f49-db71-49fe-9918-bde8d8da6a4a",
@@ -178,6 +183,7 @@
     "duration": "47:26",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1680067062000,
+    "alt": "Zebras in wild grass",
     "comments": [
       {
         "id": "52a21461-b0cc-43bc-a9d6-d52a7d4cedbe",
@@ -213,6 +219,7 @@
     "duration": "7:31",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1692767862000,
+    "alt": "Landscape of trees and lake during blue hour",
     "comments": [
       {
         "id": "c93c16f0-4795-45d1-b0da-21696d54f25a",
@@ -248,6 +255,7 @@
     "duration": "26:52",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1698211062000,
+    "alt": "Collection of paintings on gallery wall",
     "comments": [
       {
         "id": "6ff4314c-acde-4c91-a753-95cb7a366ee9",
@@ -276,6 +284,7 @@
     "duration": "49:20",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": 1701497862000,
+    "alt": "Front of train stopped at station",
     "comments": [
       {
         "id": "2d818087-c1f4-4ec2-bcdc-b545fd6ec258",
@@ -304,6 +313,7 @@
     "duration": "38:13",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": "2024-06-14T20:43:38.037Z",
+    "alt": "Two smiling drag queens",
     "comments": []
   },
   {
@@ -317,6 +327,7 @@
     "duration": "27:0",
     "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
     "timestamp": "2024-06-14T20:44:52.800Z",
+    "alt": "Two smiling drag queens",
     "comments": []
   }
 ]
