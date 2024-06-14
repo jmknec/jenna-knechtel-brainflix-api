@@ -45,7 +45,7 @@ videosRouter
       likes: 0,
       duration: `${minutes}:${seconds}`,
       video: "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
-      timestamp: new Date(),
+      timestamp: Date.now(),
       alt: "Two smiling drag queens",
       comments: [],
     };
