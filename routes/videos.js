@@ -1,3 +1,4 @@
+import { channel } from "diagnostics_channel";
 import express from "express";
 import fs from "fs";
 import { v4 } from "uuid";
@@ -28,7 +29,15 @@ videosRouter
     const newVideo = {
       id: v4(),
       title,
+      channel: "Jenna Knechtel",
+      image: "",
       description,
+      views: 0,
+      likes: 0,
+      duration: "",
+      video: "",
+      timestamp: new Date(),
+      comments: [],
     };
     videoData.push(newVideo);
 
