@@ -13,12 +13,15 @@ videosRouter
   .route("/")
   .get((_req, res) => {
     const videosData = readVideos();
-    const minVideosData = videosData.map(({ id, title, channel, image }) => ({
-      id,
-      title,
-      channel,
-      image,
-    }));
+    const minVideosData = videosData.map(
+      ({ id, title, channel, image, alt }) => ({
+        id,
+        title,
+        channel,
+        image,
+        alt,
+      })
+    );
     res.json(minVideosData);
   })
   .post((req, res) => {
@@ -43,6 +46,7 @@ videosRouter
       duration: `${minutes}:${seconds}`,
       video: "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
       timestamp: new Date(),
+      alt: "Two smiling drag queens",
       comments: [],
     };
     videoData.push(newVideo);
