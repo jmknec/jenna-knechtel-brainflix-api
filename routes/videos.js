@@ -1,4 +1,3 @@
-import { channel } from "diagnostics_channel";
 import express from "express";
 import fs from "fs";
 import { v4 } from "uuid";
@@ -24,18 +23,25 @@ videosRouter
   })
   .post((req, res) => {
     const { title, description } = req.body;
+    const times = (min, max) => {
+      const minCeiled = Math.ceil(min);
+      const maxFloor = Math.floor(max);
+      return Math.floor(Math.random() * (maxFloor - minCeiled));
+    };
+    const minutes = times(1, 60);
+    const seconds = times(1, 60);
 
     const videoData = readVideos();
     const newVideo = {
       id: v4(),
       title,
       channel: "Jenna Knechtel",
-      image: "",
+      image: "http://localhost:8080/images/image9.jpg",
       description,
       views: 0,
       likes: 0,
-      duration: "",
-      video: "",
+      duration: `${minutes}:${seconds}`,
+      video: "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
       timestamp: new Date(),
       comments: [],
     };
