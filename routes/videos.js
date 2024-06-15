@@ -31,8 +31,9 @@ videosRouter
       const maxFloor = Math.floor(max);
       return Math.floor(Math.random() * (maxFloor - minCeiled));
     };
-    const minutes = times(1, 60);
-    const seconds = times(1, 60);
+    const minutes = times(1, 60).toString().padStart(2, "0");
+    const seconds = times(1, 60).toString().padStart(2, "0");
+    const duration = `${minutes}:${seconds}`;
 
     const videoData = readVideos();
     const newVideo = {
@@ -43,7 +44,7 @@ videosRouter
       description,
       views: 0,
       likes: 0,
-      duration: `${minutes}:${seconds}`,
+      duration,
       video: "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
       timestamp: Date.now(),
       alt: "Two smiling drag queens",
